@@ -8,6 +8,7 @@ public class B10_Group3 {
         System.out.println("Hello, I'm Razan <3 ");      
         System.out.println("Hello, I'm Fatimah <3 ");
         System.out.println("Hello, I'm Renad <3 ");
+        System.out.println("Hello, I'm Sarah ");
 
     }
 }
