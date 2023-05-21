@@ -1,9 +1,10 @@
 
+package main;
 
 /**
  *
  * @author sarahkalfoot
  */
-public class Customer {
+public class Admin {
     
 }
