@@ -1,6 +1,4 @@
 
-package main;
-
 public class Freelancer {
     
     String FreelancerID;

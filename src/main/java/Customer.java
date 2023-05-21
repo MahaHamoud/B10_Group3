@@ -1,6 +1,4 @@
 
-package main;
-
 public class Customer {
     
     String customerID;

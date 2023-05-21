@@ -1,6 +1,4 @@
-
-
-import java.util.Scanner;
+                        
 
 public class B10_Group3 {
 
@@ -12,11 +10,8 @@ public class B10_Group3 {
         System.out.println("Hello, I'm Sarah ");
         
         System.out.println("Hello, I'm Lala");
-        Scanner scan = new Scanner(System.in);
-        
-        
-        
-        
+  
+          
 
     }
 }
