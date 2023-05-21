@@ -1,7 +1,7 @@
 package main;
 
-import java.util.*;
 import java.util.Scanner;
+
 public class B10_Group3 {
 
     public static void main(String[] args) {
