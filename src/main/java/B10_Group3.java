@@ -4,23 +4,25 @@ import java.io.FileNotFoundException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
+import java.util.*;
 import java.io.PrintWriter;
+
+
 
 
                         
 
 public class B10_Group3 {
 
-    public static void main(String[] args) {
-        System.out.println("Hello, I'm Maha :) ");
-        System.out.println("Hello, I'm Razan <3 ");      
-        System.out.println("Hello, I'm Fatimah <3 ");
-        System.out.println("Hello, I'm Renad <3 ");
-        System.out.println("Hello, I'm Sarah ");
-        
-        System.out.println("Hello, I'm Lala");
-        
+    public static void main(String[] args) throws FileNotFoundException {
+//        System.out.println("Hello, I'm Maha :) ");
+//        System.out.println("Hello, I'm Razan <3 ");      
+//        System.out.println("Hello, I'm Fatimah <3 ");
+//        System.out.println("Hello, I'm Renad <3 ");
+//        System.out.println("Hello, I'm Sarah ");
+
+
+
         placeOrder();
        
     }
@@ -56,13 +58,13 @@ public class B10_Group3 {
   
         
     
-    public static void placeOrder (){
+    public static void placeOrder () throws FileNotFoundException{
         System.out.println("              Hello dear Customer , Welcome to Sanad!                 ");
         System.out.println("     From here you can choose whatever services you wish to order     ");
         System.out.println("**********************************************************************"+'\n');
         //------------------------------------------------------------------------------------------------------------------ displaying menu
         // Read the menu from the file
-        File menuFile = new File("C:\\Users\\RAZAN\\OneDrive\\سطح المكتب//menu.txt");
+        File menuFile = new File("C:\\Users\\RAZAN\\OneDrive\\سطح المكتب\\menu.txt");
         Scanner menuScanner = new Scanner(menuFile);
         // Display the menu options to the user
         
@@ -170,8 +172,3 @@ userInputScanner.close();
         }
 
     }
-
-
-
-    
-}
