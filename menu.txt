@@ -1,0 +1,12 @@
+1 Programming
+2 Photography
+3 Music
+4 Audio
+5 Video 
+6 Animation
+7 Writing 
+8 Translation
+9 Graphics 
+
+10 Design
+Quit
