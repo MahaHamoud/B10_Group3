@@ -64,7 +64,7 @@ public class B10_Group3 {
         System.out.println("**********************************************************************"+'\n');
         //------------------------------------------------------------------------------------------------------------------ displaying menu
         // Read the menu from the file
-        File menuFile = new File("C:\\Users\\RAZAN\\OneDrive\\سطح المكتب\\menu.txt");
+        File menuFile = new File("src\\menu.txt");
         Scanner menuScanner = new Scanner(menuFile);
         // Display the menu options to the user
         
@@ -134,9 +134,9 @@ public class B10_Group3 {
         //--------------------------------------------------------------------------------------------------------------------- payment
         System.out.print("     Great choice, Would you like to proceed to checkout? [ Yes or No] ");
         // Read the payment options from the file
-        File paymentFile = new File("C:\\Users\\RAZAN\\OneDrive\\سطح المكتب//payment.txt");
-        Scanner paymentScanner = new Scanner(paymentFile);
-        String userPaymentApproval = userInputScanner.next();
+        File paymentFile = new File("src\\payment.txt");
+        Scanner paymentScanner = new Scanner(paymentFile); 
+        String userPaymentApproval = userInputScanner.next(); 
         if ( userPaymentApproval.equals("Yes") && userPaymentApproval.equals("yes")){
             
             
